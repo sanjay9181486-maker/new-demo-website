@@ -1,0 +1,50 @@
+<html lang="en">
+<a class="brand" href="index.html">Acme</a>
+<button id="nav-toggle-3" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav-3">☰</button>
+<nav id="primary-nav-3" class="primary-nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<h1>Contact us</h1>
+<p>Send us a message — the form below does a basic client-side validation.</p>
+
+
+<form id="contact-form" class="form">
+<label for="name">Name</label>
+<input id="name" name="name" type="text" required />
+
+
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required />
+
+
+<label for="message">Message</label>
+<textarea id="message" name="message" rows="6" required></textarea>
+
+
+<button class="btn" type="submit">Send message</button>
+<p id="form-status" role="status" aria-live="polite" class="small"></p>
+</form>
+
+
+</main>
+
+
+<footer class="site-footer">
+<div class="container">
+<p>&copy; <span id="year-3"></span> Acme.</p>
+</div>
+</footer>
+
+
+<script src="assets/script.js" defer></script>
+</body>
+</html>
